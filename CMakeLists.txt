@@ -90,15 +90,15 @@ if(PythonQt_QT_VERSION MATCHES 5)
   list(FIND qt_import_libs "Gui" _index)
   if (_index GREATER -1)
     list(APPEND qt_import_libs Widgets) # Widgets are wrapped as a part of Gui
-  endif  
+  endif()  
   list(FIND qt_import_libs "WebKit" _index)
   if (_index GREATER -1)
     list(APPEND qt_import_libs WebKitWidgets) # WebKitWidgets are wrapped as a part of WebKit
-  endif  
+  endif()  
   list(FIND qt_import_libs "Multimedia" _index)
   if (_index GREATER -1)
     list(APPEND qt_import_libs MultimediaWidgets) # MultimediaWidgets are wrapped as a part of Multimedia
-  endif  
+  endif() 
 
   find_package(Qt5 ${minimum_required_qt5_version} COMPONENTS ${qt_import_libs} REQUIRED)
 
