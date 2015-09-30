@@ -261,7 +261,7 @@ foreach(qtlib ${qtlibs})
     string(TOLOWER ${qtlib} qtlib_lowercase)
 
 
-    ADD_DEFINITIONS(-DPYTHONQT_WRAP_Qt${qtlib})
+    ADD_DEFINITIONS(-DPYTHONQT_WRAP_Qt${qtlib_lowercase})
 
     set(file_prefix generated_cpp${generated_cpp_suffix}/com_trolltech_qt_${qtlib_lowercase}/com_trolltech_qt_${qtlib_lowercase})
 
