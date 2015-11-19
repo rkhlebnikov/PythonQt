@@ -195,7 +195,7 @@ set(sources
     src/PythonQtStdDecorators.cpp
     src/PythonQtStdIn.cpp
     src/PythonQtStdOut.cpp
-    src/Gui/PythonQtScriptingConsole.cpp
+    src/gui/PythonQtScriptingConsole.cpp
 
     generated_cpp${generated_cpp_suffix}/com_trolltech_qt_core_builtin/com_trolltech_qt_core_builtin0.cpp
     generated_cpp${generated_cpp_suffix}/com_trolltech_qt_core_builtin/com_trolltech_qt_core_builtin_init.cpp
