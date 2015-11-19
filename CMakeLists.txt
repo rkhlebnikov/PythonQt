@@ -246,7 +246,7 @@ set(moc_sources
     src/PythonQt.h
     src/PythonQtSignalReceiver.h
     src/PythonQtStdDecorators.h
-    src/Gui/PythonQtScriptingConsole.h
+    src/gui/PythonQtScriptingConsole.h
 
     generated_cpp${generated_cpp_suffix}/com_trolltech_qt_core_builtin/com_trolltech_qt_core_builtin0.h
     generated_cpp${generated_cpp_suffix}/com_trolltech_qt_gui_builtin/com_trolltech_qt_gui_builtin0.h
